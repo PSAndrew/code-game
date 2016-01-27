@@ -1,0 +1,85 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+}
+#menuBar{
+	background-color: #e0e0e0;
+	border-bottom: 1px solid #b0b0b0;
+	height: 40px;
+	width: 100%;
+}
+#logo{
+	float: left;
+	font-weight: bold;
+	line-height: 1.75em;
+	padding: 5px 0 0 20px;
+}
+#buttonDiv{
+	position: absolute;
+	right: 20px;
+	top: 5px;
+}
+#runButton{
+	font-size: 1.125em;
+	padding: 2px;
+	width: 50px;
+}
+#toggles{
+	border: 1px solid #808080;
+	border-radius: 3px;
+	height: 30px;
+	list-style: none;
+	margin: 0 auto;
+	position: relative;
+	top: 5px;
+	width: 302px;
+}
+#toggles li{
+	border-right: 1px solid #808080;
+	float: left;
+	padding: 5px 0;
+	text-align: center;
+	width: 75px;
+}
+.clear{
+	clear: both;
+}
+.codeContainer{
+	float: left;
+	height: 100%;
+	position: relative;
+	width: 50%;
+}
+.codeContainer textarea{
+	border-right: 2px solid #808080;
+	display: block;
+	font-family: monotype;
+	font-size: 1.125em;
+	height: 100%;
+	margin: 0 auto;
+	padding: 25px 5px;
+	width: 100%;
+}
+.codeLabel{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+#CSSContainer,
+#JSContainer{
+	display: none;
+}
+iframe{
+	border: none;
+	height: 100%;
+	left: 10px;
+	position: relative;
+	top: 25px;
+	width: 95%;
+}
+.selected{
+	background-color: #808080;
+}
